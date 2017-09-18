@@ -1,3 +1,5 @@
+# DeDeCMS (织梦CMS) Dockerfile
+
 ## 构建 Docker 镜像
 
 以 UTF8 FULL 5.7 为例
