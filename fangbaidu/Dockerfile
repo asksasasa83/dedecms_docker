@@ -29,6 +29,8 @@ RUN a2enmod rewrite expires
 
 VOLUME /var/www/html
 
+COPY fangbaidu.tar.gz .
+
 RUN set -ex; \
 # upstream tarballs include ./dedecms/ so this gives us /usr/src/dedecms
 	tar -xzf fangbaidu.tar.gz -C /usr/src/; \
